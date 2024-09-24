@@ -16,9 +16,9 @@ The goal of this experiment is to demonstrate how deep learning can be used to e
   - NumPy, Pandas
 
 ## Dataset
-Dataset Name: OpenDeID Dataset
-Source: [https://www.sredhconsortium.org/sredh-datasets/opendeid-corpus-dataset]
-Content: The dataset contains EHR text with labeled entities for PHI such as patient names, dates, and locations.
+- Dataset Name: OpenDeID Dataset
+- Source: [https://www.sredhconsortium.org/sredh-datasets/opendeid-corpus-dataset]
+- Content: The dataset contains EHR text with labeled entities for PHI such as patient names, dates, and locations.
 
 ## Training
 ### Training Script
