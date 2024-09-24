@@ -1,0 +1,4582 @@
+[
+    {
+        "epoch": 0,
+        "train_loss": 420.37541521685665,
+        "val_loss": 36.34358509107568,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1047,
+                "FP": 1380,
+                "FN": 838
+            },
+            "DOCTOR": {
+                "TP": 4189,
+                "FP": 2395,
+                "FN": 2796
+            },
+            "CITY": {
+                "TP": 490,
+                "FP": 703,
+                "FN": 530
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 355,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 308,
+                "FP": 225,
+                "FN": 672
+            },
+            "MEDICALRECORD": {
+                "TP": 818,
+                "FP": 642,
+                "FN": 1094
+            },
+            "DEPARTMENT": {
+                "TP": 350,
+                "FP": 358,
+                "FN": 785
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 533,
+                "FN": 7
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 1174,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 2494,
+                "FP": 3432,
+                "FN": 1424
+            },
+            "STATE": {
+                "TP": 198,
+                "FP": 117,
+                "FN": 754
+            },
+            "AGE": {
+                "TP": 0,
+                "FP": 687,
+                "FN": 146
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 1449,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1015,
+                "FP": 2752,
+                "FN": 898
+            },
+            "DATE": {
+                "TP": 3586,
+                "FP": 2502,
+                "FN": 1521
+            },
+            "ZIP": {
+                "TP": 452,
+                "FP": 839,
+                "FN": 542
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 169,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 0,
+                "FP": 25,
+                "FN": 28
+            },
+            "ORGANIZATION": {
+                "TP": 0,
+                "FP": 185,
+                "FN": 113
+            },
+            "TIME": {
+                "TP": 766,
+                "FP": 722,
+                "FN": 490
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 10,
+                "FN": 9
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 468,
+                "FP": 15,
+                "FN": 11
+            },
+            "DOCTOR": {
+                "TP": 1654,
+                "FP": 226,
+                "FN": 89
+            },
+            "CITY": {
+                "TP": 237,
+                "FP": 11,
+                "FN": 19
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 232,
+                "FP": 12,
+                "FN": 8
+            },
+            "MEDICALRECORD": {
+                "TP": 472,
+                "FP": 10,
+                "FN": 3
+            },
+            "DEPARTMENT": {
+                "TP": 230,
+                "FP": 78,
+                "FN": 38
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 921,
+                "FP": 50,
+                "FN": 15
+            },
+            "STATE": {
+                "TP": 220,
+                "FP": 4,
+                "FN": 13
+            },
+            "AGE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 38
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 448,
+                "FP": 61,
+                "FN": 28
+            },
+            "DATE": {
+                "TP": 1208,
+                "FP": 84,
+                "FN": 77
+            },
+            "ZIP": {
+                "TP": 239,
+                "FP": 4,
+                "FN": 5
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 6
+            },
+            "ORGANIZATION": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 46
+            },
+            "TIME": {
+                "TP": 267,
+                "FP": 20,
+                "FN": 12
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            }
+        }
+    },
+    {
+        "epoch": 1,
+        "train_loss": 35.638271596227774,
+        "val_loss": 24.552713284547302,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1816,
+                "FP": 105,
+                "FN": 69
+            },
+            "DOCTOR": {
+                "TP": 6522,
+                "FP": 528,
+                "FN": 463
+            },
+            "CITY": {
+                "TP": 959,
+                "FP": 55,
+                "FN": 61
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 947,
+                "FP": 49,
+                "FN": 33
+            },
+            "MEDICALRECORD": {
+                "TP": 1873,
+                "FP": 65,
+                "FN": 39
+            },
+            "DEPARTMENT": {
+                "TP": 950,
+                "FP": 299,
+                "FN": 185
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 7
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3761,
+                "FP": 214,
+                "FN": 157
+            },
+            "STATE": {
+                "TP": 886,
+                "FP": 24,
+                "FN": 66
+            },
+            "AGE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 146
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1788,
+                "FP": 244,
+                "FN": 125
+            },
+            "DATE": {
+                "TP": 4914,
+                "FP": 231,
+                "FN": 193
+            },
+            "ZIP": {
+                "TP": 969,
+                "FP": 24,
+                "FN": 25
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 28
+            },
+            "ORGANIZATION": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 111
+            },
+            "TIME": {
+                "TP": 1193,
+                "FP": 129,
+                "FN": 63
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 9
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 469,
+                "FP": 5,
+                "FN": 10
+            },
+            "DOCTOR": {
+                "TP": 1681,
+                "FP": 136,
+                "FN": 62
+            },
+            "CITY": {
+                "TP": 239,
+                "FP": 13,
+                "FN": 17
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 235,
+                "FP": 9,
+                "FN": 5
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 3,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 239,
+                "FP": 68,
+                "FN": 29
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 926,
+                "FP": 26,
+                "FN": 10
+            },
+            "STATE": {
+                "TP": 222,
+                "FP": 5,
+                "FN": 11
+            },
+            "AGE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 38
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 467,
+                "FP": 30,
+                "FN": 9
+            },
+            "DATE": {
+                "TP": 1240,
+                "FP": 61,
+                "FN": 45
+            },
+            "ZIP": {
+                "TP": 241,
+                "FP": 1,
+                "FN": 3
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 6
+            },
+            "ORGANIZATION": {
+                "TP": 0,
+                "FP": 2,
+                "FN": 46
+            },
+            "TIME": {
+                "TP": 267,
+                "FP": 29,
+                "FN": 12
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            }
+        }
+    },
+    {
+        "epoch": 2,
+        "train_loss": 22.510961766088254,
+        "val_loss": 15.445983755177465,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1842,
+                "FP": 44,
+                "FN": 43
+            },
+            "DOCTOR": {
+                "TP": 6651,
+                "FP": 389,
+                "FN": 334
+            },
+            "CITY": {
+                "TP": 983,
+                "FP": 46,
+                "FN": 37
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 964,
+                "FP": 38,
+                "FN": 16
+            },
+            "MEDICALRECORD": {
+                "TP": 1887,
+                "FP": 38,
+                "FN": 25
+            },
+            "DEPARTMENT": {
+                "TP": 996,
+                "FP": 233,
+                "FN": 139
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 7
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3810,
+                "FP": 120,
+                "FN": 108
+            },
+            "STATE": {
+                "TP": 905,
+                "FP": 22,
+                "FN": 47
+            },
+            "AGE": {
+                "TP": 48,
+                "FP": 0,
+                "FN": 98
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1860,
+                "FP": 93,
+                "FN": 53
+            },
+            "DATE": {
+                "TP": 4974,
+                "FP": 135,
+                "FN": 133
+            },
+            "ZIP": {
+                "TP": 974,
+                "FP": 11,
+                "FN": 20
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 28
+            },
+            "ORGANIZATION": {
+                "TP": 21,
+                "FP": 52,
+                "FN": 92
+            },
+            "TIME": {
+                "TP": 1203,
+                "FP": 110,
+                "FN": 53
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 9
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 471,
+                "FP": 3,
+                "FN": 8
+            },
+            "DOCTOR": {
+                "TP": 1694,
+                "FP": 88,
+                "FN": 49
+            },
+            "CITY": {
+                "TP": 244,
+                "FP": 15,
+                "FN": 12
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 236,
+                "FP": 9,
+                "FN": 4
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 4,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 246,
+                "FP": 41,
+                "FN": 22
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 925,
+                "FP": 20,
+                "FN": 11
+            },
+            "STATE": {
+                "TP": 224,
+                "FP": 4,
+                "FN": 9
+            },
+            "AGE": {
+                "TP": 31,
+                "FP": 1,
+                "FN": 7
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 465,
+                "FP": 21,
+                "FN": 11
+            },
+            "DATE": {
+                "TP": 1248,
+                "FP": 19,
+                "FN": 37
+            },
+            "ZIP": {
+                "TP": 241,
+                "FP": 1,
+                "FN": 3
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 6
+            },
+            "ORGANIZATION": {
+                "TP": 16,
+                "FP": 34,
+                "FN": 30
+            },
+            "TIME": {
+                "TP": 270,
+                "FP": 13,
+                "FN": 9
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            }
+        }
+    },
+    {
+        "epoch": 3,
+        "train_loss": 13.956824858280058,
+        "val_loss": 15.818100940222028,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1859,
+                "FP": 34,
+                "FN": 26
+            },
+            "DOCTOR": {
+                "TP": 6743,
+                "FP": 240,
+                "FN": 242
+            },
+            "CITY": {
+                "TP": 986,
+                "FP": 50,
+                "FN": 34
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 969,
+                "FP": 27,
+                "FN": 11
+            },
+            "MEDICALRECORD": {
+                "TP": 1899,
+                "FP": 23,
+                "FN": 13
+            },
+            "DEPARTMENT": {
+                "TP": 1016,
+                "FP": 166,
+                "FN": 119
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 7
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3845,
+                "FP": 78,
+                "FN": 73
+            },
+            "STATE": {
+                "TP": 906,
+                "FP": 33,
+                "FN": 46
+            },
+            "AGE": {
+                "TP": 113,
+                "FP": 2,
+                "FN": 33
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1875,
+                "FP": 71,
+                "FN": 38
+            },
+            "DATE": {
+                "TP": 4995,
+                "FP": 88,
+                "FN": 112
+            },
+            "ZIP": {
+                "TP": 983,
+                "FP": 4,
+                "FN": 11
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 1,
+                "FP": 0,
+                "FN": 27
+            },
+            "ORGANIZATION": {
+                "TP": 45,
+                "FP": 78,
+                "FN": 68
+            },
+            "TIME": {
+                "TP": 1217,
+                "FP": 59,
+                "FN": 39
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 9
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 473,
+                "FP": 6,
+                "FN": 6
+            },
+            "DOCTOR": {
+                "TP": 1708,
+                "FP": 87,
+                "FN": 35
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 11,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 236,
+                "FP": 4,
+                "FN": 4
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 3,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 245,
+                "FP": 34,
+                "FN": 23
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 924,
+                "FP": 27,
+                "FN": 12
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 4,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 35,
+                "FP": 5,
+                "FN": 3
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 468,
+                "FP": 21,
+                "FN": 8
+            },
+            "DATE": {
+                "TP": 1251,
+                "FP": 17,
+                "FN": 34
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 2,
+                "FP": 1,
+                "FN": 4
+            },
+            "ORGANIZATION": {
+                "TP": 20,
+                "FP": 27,
+                "FN": 26
+            },
+            "TIME": {
+                "TP": 269,
+                "FP": 18,
+                "FN": 10
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            }
+        }
+    },
+    {
+        "epoch": 4,
+        "train_loss": 10.376777491386662,
+        "val_loss": 13.287980967554553,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1861,
+                "FP": 28,
+                "FN": 24
+            },
+            "DOCTOR": {
+                "TP": 6777,
+                "FP": 214,
+                "FN": 208
+            },
+            "CITY": {
+                "TP": 992,
+                "FP": 33,
+                "FN": 28
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 972,
+                "FP": 18,
+                "FN": 8
+            },
+            "MEDICALRECORD": {
+                "TP": 1901,
+                "FP": 13,
+                "FN": 11
+            },
+            "DEPARTMENT": {
+                "TP": 1030,
+                "FP": 131,
+                "FN": 105
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 7
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3849,
+                "FP": 72,
+                "FN": 69
+            },
+            "STATE": {
+                "TP": 907,
+                "FP": 30,
+                "FN": 45
+            },
+            "AGE": {
+                "TP": 121,
+                "FP": 3,
+                "FN": 25
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1897,
+                "FP": 26,
+                "FN": 16
+            },
+            "DATE": {
+                "TP": 4998,
+                "FP": 69,
+                "FN": 109
+            },
+            "ZIP": {
+                "TP": 984,
+                "FP": 7,
+                "FN": 10
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 6,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 11,
+                "FP": 9,
+                "FN": 17
+            },
+            "ORGANIZATION": {
+                "TP": 52,
+                "FP": 71,
+                "FN": 61
+            },
+            "TIME": {
+                "TP": 1218,
+                "FP": 51,
+                "FN": 38
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 9
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 471,
+                "FP": 2,
+                "FN": 8
+            },
+            "DOCTOR": {
+                "TP": 1692,
+                "FP": 46,
+                "FN": 51
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 18,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 235,
+                "FP": 4,
+                "FN": 5
+            },
+            "MEDICALRECORD": {
+                "TP": 475,
+                "FP": 1,
+                "FN": 0
+            },
+            "DEPARTMENT": {
+                "TP": 241,
+                "FP": 30,
+                "FN": 27
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 924,
+                "FP": 12,
+                "FN": 12
+            },
+            "STATE": {
+                "TP": 226,
+                "FP": 5,
+                "FN": 7
+            },
+            "AGE": {
+                "TP": 36,
+                "FP": 3,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 469,
+                "FP": 18,
+                "FN": 7
+            },
+            "DATE": {
+                "TP": 1254,
+                "FP": 15,
+                "FN": 31
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 0,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 3,
+                "FP": 2,
+                "FN": 3
+            },
+            "ORGANIZATION": {
+                "TP": 19,
+                "FP": 20,
+                "FN": 27
+            },
+            "TIME": {
+                "TP": 273,
+                "FP": 8,
+                "FN": 6
+            },
+            "PHONE": {
+                "TP": 1,
+                "FP": 0,
+                "FN": 1
+            }
+        }
+    },
+    {
+        "epoch": 5,
+        "train_loss": 8.613997917962989,
+        "val_loss": 12.057219318959906,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1862,
+                "FP": 30,
+                "FN": 23
+            },
+            "DOCTOR": {
+                "TP": 6819,
+                "FP": 202,
+                "FN": 166
+            },
+            "CITY": {
+                "TP": 992,
+                "FP": 38,
+                "FN": 28
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 968,
+                "FP": 19,
+                "FN": 12
+            },
+            "MEDICALRECORD": {
+                "TP": 1908,
+                "FP": 7,
+                "FN": 4
+            },
+            "DEPARTMENT": {
+                "TP": 1040,
+                "FP": 109,
+                "FN": 95
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 7
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3864,
+                "FP": 55,
+                "FN": 54
+            },
+            "STATE": {
+                "TP": 914,
+                "FP": 30,
+                "FN": 38
+            },
+            "AGE": {
+                "TP": 130,
+                "FP": 7,
+                "FN": 16
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1891,
+                "FP": 29,
+                "FN": 22
+            },
+            "DATE": {
+                "TP": 5018,
+                "FP": 49,
+                "FN": 89
+            },
+            "ZIP": {
+                "TP": 987,
+                "FP": 7,
+                "FN": 7
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 7,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 18,
+                "FP": 10,
+                "FN": 10
+            },
+            "ORGANIZATION": {
+                "TP": 57,
+                "FP": 53,
+                "FN": 56
+            },
+            "TIME": {
+                "TP": 1220,
+                "FP": 46,
+                "FN": 36
+            },
+            "PHONE": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 9
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 471,
+                "FP": 3,
+                "FN": 8
+            },
+            "DOCTOR": {
+                "TP": 1713,
+                "FP": 49,
+                "FN": 30
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 10,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 235,
+                "FP": 7,
+                "FN": 5
+            },
+            "MEDICALRECORD": {
+                "TP": 475,
+                "FP": 3,
+                "FN": 0
+            },
+            "DEPARTMENT": {
+                "TP": 246,
+                "FP": 25,
+                "FN": 22
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 925,
+                "FP": 10,
+                "FN": 11
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 4,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 35,
+                "FP": 5,
+                "FN": 3
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 471,
+                "FP": 11,
+                "FN": 5
+            },
+            "DATE": {
+                "TP": 1257,
+                "FP": 15,
+                "FN": 28
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 2,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 21,
+                "FP": 18,
+                "FN": 25
+            },
+            "TIME": {
+                "TP": 272,
+                "FP": 11,
+                "FN": 7
+            },
+            "PHONE": {
+                "TP": 1,
+                "FP": 0,
+                "FN": 1
+            }
+        }
+    },
+    {
+        "epoch": 6,
+        "train_loss": 7.020432067128409,
+        "val_loss": 11.316640437334433,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1865,
+                "FP": 28,
+                "FN": 20
+            },
+            "DOCTOR": {
+                "TP": 6846,
+                "FP": 167,
+                "FN": 139
+            },
+            "CITY": {
+                "TP": 996,
+                "FP": 29,
+                "FN": 24
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 967,
+                "FP": 21,
+                "FN": 13
+            },
+            "MEDICALRECORD": {
+                "TP": 1906,
+                "FP": 10,
+                "FN": 6
+            },
+            "DEPARTMENT": {
+                "TP": 1053,
+                "FP": 99,
+                "FN": 82
+            },
+            "LOCATION-OTHER": {
+                "TP": 1,
+                "FP": 6,
+                "FN": 6
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3872,
+                "FP": 45,
+                "FN": 46
+            },
+            "STATE": {
+                "TP": 910,
+                "FP": 35,
+                "FN": 42
+            },
+            "AGE": {
+                "TP": 134,
+                "FP": 9,
+                "FN": 12
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1900,
+                "FP": 17,
+                "FN": 13
+            },
+            "DATE": {
+                "TP": 5023,
+                "FP": 53,
+                "FN": 84
+            },
+            "ZIP": {
+                "TP": 990,
+                "FP": 5,
+                "FN": 4
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 20,
+                "FP": 9,
+                "FN": 8
+            },
+            "ORGANIZATION": {
+                "TP": 65,
+                "FP": 54,
+                "FN": 48
+            },
+            "TIME": {
+                "TP": 1229,
+                "FP": 32,
+                "FN": 27
+            },
+            "PHONE": {
+                "TP": 6,
+                "FP": 6,
+                "FN": 3
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 472,
+                "FP": 13,
+                "FN": 7
+            },
+            "DOCTOR": {
+                "TP": 1710,
+                "FP": 56,
+                "FN": 33
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 12,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 234,
+                "FP": 9,
+                "FN": 6
+            },
+            "MEDICALRECORD": {
+                "TP": 475,
+                "FP": 1,
+                "FN": 0
+            },
+            "DEPARTMENT": {
+                "TP": 245,
+                "FP": 17,
+                "FN": 23
+            },
+            "LOCATION-OTHER": {
+                "TP": 0,
+                "FP": 1,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 925,
+                "FP": 24,
+                "FN": 11
+            },
+            "STATE": {
+                "TP": 226,
+                "FP": 5,
+                "FN": 7
+            },
+            "AGE": {
+                "TP": 36,
+                "FP": 5,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 469,
+                "FP": 16,
+                "FN": 7
+            },
+            "DATE": {
+                "TP": 1266,
+                "FP": 23,
+                "FN": 19
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 3,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 24,
+                "FP": 23,
+                "FN": 22
+            },
+            "TIME": {
+                "TP": 272,
+                "FP": 7,
+                "FN": 7
+            },
+            "PHONE": {
+                "TP": 1,
+                "FP": 0,
+                "FN": 1
+            }
+        }
+    },
+    {
+        "epoch": 7,
+        "train_loss": 5.215170097913714,
+        "val_loss": 11.962996077263492,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1871,
+                "FP": 19,
+                "FN": 14
+            },
+            "DOCTOR": {
+                "TP": 6871,
+                "FP": 126,
+                "FN": 114
+            },
+            "CITY": {
+                "TP": 999,
+                "FP": 31,
+                "FN": 21
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 972,
+                "FP": 14,
+                "FN": 8
+            },
+            "MEDICALRECORD": {
+                "TP": 1906,
+                "FP": 7,
+                "FN": 6
+            },
+            "DEPARTMENT": {
+                "TP": 1066,
+                "FP": 73,
+                "FN": 69
+            },
+            "LOCATION-OTHER": {
+                "TP": 4,
+                "FP": 7,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3881,
+                "FP": 39,
+                "FN": 37
+            },
+            "STATE": {
+                "TP": 910,
+                "FP": 30,
+                "FN": 42
+            },
+            "AGE": {
+                "TP": 138,
+                "FP": 3,
+                "FN": 8
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1900,
+                "FP": 14,
+                "FN": 13
+            },
+            "DATE": {
+                "TP": 5037,
+                "FP": 46,
+                "FN": 70
+            },
+            "ZIP": {
+                "TP": 990,
+                "FP": 5,
+                "FN": 4
+            },
+            "URL": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "DURATION": {
+                "TP": 24,
+                "FP": 6,
+                "FN": 4
+            },
+            "ORGANIZATION": {
+                "TP": 69,
+                "FP": 49,
+                "FN": 44
+            },
+            "TIME": {
+                "TP": 1225,
+                "FP": 36,
+                "FN": 31
+            },
+            "PHONE": {
+                "TP": 7,
+                "FP": 3,
+                "FN": 2
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 471,
+                "FP": 4,
+                "FN": 8
+            },
+            "DOCTOR": {
+                "TP": 1715,
+                "FP": 56,
+                "FN": 28
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 10,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 238,
+                "FP": 2,
+                "FN": 2
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 2,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 244,
+                "FP": 18,
+                "FN": 24
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 927,
+                "FP": 15,
+                "FN": 9
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 5,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 36,
+                "FP": 5,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 471,
+                "FP": 17,
+                "FN": 5
+            },
+            "DATE": {
+                "TP": 1266,
+                "FP": 17,
+                "FN": 19
+            },
+            "ZIP": {
+                "TP": 242,
+                "FP": 2,
+                "FN": 2
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 4,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 23,
+                "FP": 24,
+                "FN": 23
+            },
+            "TIME": {
+                "TP": 270,
+                "FP": 11,
+                "FN": 9
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 8,
+        "train_loss": 5.02304531761327,
+        "val_loss": 11.43292525718952,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1869,
+                "FP": 14,
+                "FN": 16
+            },
+            "DOCTOR": {
+                "TP": 6858,
+                "FP": 132,
+                "FN": 127
+            },
+            "CITY": {
+                "TP": 998,
+                "FP": 30,
+                "FN": 22
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 974,
+                "FP": 12,
+                "FN": 6
+            },
+            "MEDICALRECORD": {
+                "TP": 1908,
+                "FP": 6,
+                "FN": 4
+            },
+            "DEPARTMENT": {
+                "TP": 1069,
+                "FP": 74,
+                "FN": 66
+            },
+            "LOCATION-OTHER": {
+                "TP": 6,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3883,
+                "FP": 36,
+                "FN": 35
+            },
+            "STATE": {
+                "TP": 914,
+                "FP": 35,
+                "FN": 38
+            },
+            "AGE": {
+                "TP": 138,
+                "FP": 3,
+                "FN": 8
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1895,
+                "FP": 28,
+                "FN": 18
+            },
+            "DATE": {
+                "TP": 5055,
+                "FP": 37,
+                "FN": 52
+            },
+            "ZIP": {
+                "TP": 990,
+                "FP": 4,
+                "FN": 4
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 26,
+                "FP": 4,
+                "FN": 2
+            },
+            "ORGANIZATION": {
+                "TP": 70,
+                "FP": 48,
+                "FN": 43
+            },
+            "TIME": {
+                "TP": 1223,
+                "FP": 38,
+                "FN": 33
+            },
+            "PHONE": {
+                "TP": 7,
+                "FP": 4,
+                "FN": 2
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 470,
+                "FP": 4,
+                "FN": 9
+            },
+            "DOCTOR": {
+                "TP": 1715,
+                "FP": 51,
+                "FN": 28
+            },
+            "CITY": {
+                "TP": 242,
+                "FP": 19,
+                "FN": 14
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 235,
+                "FP": 2,
+                "FN": 5
+            },
+            "MEDICALRECORD": {
+                "TP": 473,
+                "FP": 3,
+                "FN": 2
+            },
+            "DEPARTMENT": {
+                "TP": 251,
+                "FP": 26,
+                "FN": 17
+            },
+            "LOCATION-OTHER": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 926,
+                "FP": 20,
+                "FN": 10
+            },
+            "STATE": {
+                "TP": 225,
+                "FP": 17,
+                "FN": 8
+            },
+            "AGE": {
+                "TP": 36,
+                "FP": 5,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 471,
+                "FP": 17,
+                "FN": 5
+            },
+            "DATE": {
+                "TP": 1269,
+                "FP": 18,
+                "FN": 16
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 2,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 2,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 23,
+                "FP": 18,
+                "FN": 23
+            },
+            "TIME": {
+                "TP": 271,
+                "FP": 10,
+                "FN": 8
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 9,
+        "train_loss": 5.010716089456834,
+        "val_loss": 9.796898765125494,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1869,
+                "FP": 21,
+                "FN": 16
+            },
+            "DOCTOR": {
+                "TP": 6885,
+                "FP": 115,
+                "FN": 100
+            },
+            "CITY": {
+                "TP": 995,
+                "FP": 29,
+                "FN": 25
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 973,
+                "FP": 9,
+                "FN": 7
+            },
+            "MEDICALRECORD": {
+                "TP": 1908,
+                "FP": 4,
+                "FN": 4
+            },
+            "DEPARTMENT": {
+                "TP": 1075,
+                "FP": 56,
+                "FN": 60
+            },
+            "LOCATION-OTHER": {
+                "TP": 6,
+                "FP": 2,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3877,
+                "FP": 43,
+                "FN": 41
+            },
+            "STATE": {
+                "TP": 916,
+                "FP": 35,
+                "FN": 36
+            },
+            "AGE": {
+                "TP": 137,
+                "FP": 2,
+                "FN": 9
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 11
+            },
+            "HOSPITAL": {
+                "TP": 1904,
+                "FP": 18,
+                "FN": 9
+            },
+            "DATE": {
+                "TP": 5057,
+                "FP": 40,
+                "FN": 50
+            },
+            "ZIP": {
+                "TP": 991,
+                "FP": 5,
+                "FN": 3
+            },
+            "URL": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "DURATION": {
+                "TP": 26,
+                "FP": 4,
+                "FN": 2
+            },
+            "ORGANIZATION": {
+                "TP": 73,
+                "FP": 38,
+                "FN": 40
+            },
+            "TIME": {
+                "TP": 1225,
+                "FP": 38,
+                "FN": 31
+            },
+            "PHONE": {
+                "TP": 8,
+                "FP": 4,
+                "FN": 1
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 473,
+                "FP": 11,
+                "FN": 6
+            },
+            "DOCTOR": {
+                "TP": 1714,
+                "FP": 56,
+                "FN": 29
+            },
+            "CITY": {
+                "TP": 245,
+                "FP": 12,
+                "FN": 11
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 237,
+                "FP": 4,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 2,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 250,
+                "FP": 17,
+                "FN": 18
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 928,
+                "FP": 12,
+                "FN": 8
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 5,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 37,
+                "FP": 4,
+                "FN": 1
+            },
+            "SET": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "HOSPITAL": {
+                "TP": 470,
+                "FP": 15,
+                "FN": 6
+            },
+            "DATE": {
+                "TP": 1268,
+                "FP": 16,
+                "FN": 17
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 2,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 4,
+                "FP": 2,
+                "FN": 2
+            },
+            "ORGANIZATION": {
+                "TP": 25,
+                "FP": 20,
+                "FN": 21
+            },
+            "TIME": {
+                "TP": 271,
+                "FP": 7,
+                "FN": 8
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 10,
+        "train_loss": 3.2348106997554633,
+        "val_loss": 9.255385914068112,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1872,
+                "FP": 12,
+                "FN": 13
+            },
+            "DOCTOR": {
+                "TP": 6880,
+                "FP": 100,
+                "FN": 105
+            },
+            "CITY": {
+                "TP": 998,
+                "FP": 28,
+                "FN": 22
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 978,
+                "FP": 6,
+                "FN": 2
+            },
+            "MEDICALRECORD": {
+                "TP": 1908,
+                "FP": 9,
+                "FN": 4
+            },
+            "DEPARTMENT": {
+                "TP": 1086,
+                "FP": 56,
+                "FN": 49
+            },
+            "LOCATION-OTHER": {
+                "TP": 6,
+                "FP": 2,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3887,
+                "FP": 27,
+                "FN": 31
+            },
+            "STATE": {
+                "TP": 914,
+                "FP": 37,
+                "FN": 38
+            },
+            "AGE": {
+                "TP": 139,
+                "FP": 0,
+                "FN": 7
+            },
+            "SET": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 9
+            },
+            "HOSPITAL": {
+                "TP": 1908,
+                "FP": 9,
+                "FN": 5
+            },
+            "DATE": {
+                "TP": 5067,
+                "FP": 30,
+                "FN": 40
+            },
+            "ZIP": {
+                "TP": 992,
+                "FP": 5,
+                "FN": 2
+            },
+            "URL": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "DURATION": {
+                "TP": 27,
+                "FP": 2,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 72,
+                "FP": 38,
+                "FN": 41
+            },
+            "TIME": {
+                "TP": 1230,
+                "FP": 23,
+                "FN": 26
+            },
+            "PHONE": {
+                "TP": 8,
+                "FP": 1,
+                "FN": 1
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 474,
+                "FP": 5,
+                "FN": 5
+            },
+            "DOCTOR": {
+                "TP": 1710,
+                "FP": 36,
+                "FN": 33
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 12,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 237,
+                "FP": 3,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 2,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 252,
+                "FP": 20,
+                "FN": 16
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 928,
+                "FP": 16,
+                "FN": 8
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 6,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 37,
+                "FP": 5,
+                "FN": 1
+            },
+            "SET": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "HOSPITAL": {
+                "TP": 471,
+                "FP": 11,
+                "FN": 5
+            },
+            "DATE": {
+                "TP": 1270,
+                "FP": 17,
+                "FN": 15
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 2,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 1,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 26,
+                "FP": 20,
+                "FN": 20
+            },
+            "TIME": {
+                "TP": 272,
+                "FP": 8,
+                "FN": 7
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 11,
+        "train_loss": 2.630165026954493,
+        "val_loss": 10.467502199370285,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1877,
+                "FP": 8,
+                "FN": 8
+            },
+            "DOCTOR": {
+                "TP": 6896,
+                "FP": 84,
+                "FN": 89
+            },
+            "CITY": {
+                "TP": 1002,
+                "FP": 20,
+                "FN": 18
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 979,
+                "FP": 3,
+                "FN": 1
+            },
+            "MEDICALRECORD": {
+                "TP": 1909,
+                "FP": 10,
+                "FN": 3
+            },
+            "DEPARTMENT": {
+                "TP": 1097,
+                "FP": 44,
+                "FN": 38
+            },
+            "LOCATION-OTHER": {
+                "TP": 5,
+                "FP": 1,
+                "FN": 2
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3894,
+                "FP": 36,
+                "FN": 24
+            },
+            "STATE": {
+                "TP": 918,
+                "FP": 33,
+                "FN": 34
+            },
+            "AGE": {
+                "TP": 144,
+                "FP": 2,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 5,
+                "FP": 0,
+                "FN": 6
+            },
+            "HOSPITAL": {
+                "TP": 1903,
+                "FP": 14,
+                "FN": 10
+            },
+            "DATE": {
+                "TP": 5063,
+                "FP": 34,
+                "FN": 44
+            },
+            "ZIP": {
+                "TP": 993,
+                "FP": 2,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "DURATION": {
+                "TP": 27,
+                "FP": 2,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 73,
+                "FP": 38,
+                "FN": 40
+            },
+            "TIME": {
+                "TP": 1231,
+                "FP": 26,
+                "FN": 25
+            },
+            "PHONE": {
+                "TP": 8,
+                "FP": 2,
+                "FN": 1
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 474,
+                "FP": 6,
+                "FN": 5
+            },
+            "DOCTOR": {
+                "TP": 1718,
+                "FP": 52,
+                "FN": 25
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 13,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 237,
+                "FP": 4,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 2,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 252,
+                "FP": 16,
+                "FN": 16
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 927,
+                "FP": 16,
+                "FN": 9
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 5,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 37,
+                "FP": 5,
+                "FN": 1
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 471,
+                "FP": 12,
+                "FN": 5
+            },
+            "DATE": {
+                "TP": 1270,
+                "FP": 21,
+                "FN": 15
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 4,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 25,
+                "FP": 20,
+                "FN": 21
+            },
+            "TIME": {
+                "TP": 270,
+                "FP": 12,
+                "FN": 9
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 12,
+        "train_loss": 2.6562801068511335,
+        "val_loss": 10.397727527837644,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1876,
+                "FP": 12,
+                "FN": 9
+            },
+            "DOCTOR": {
+                "TP": 6888,
+                "FP": 90,
+                "FN": 97
+            },
+            "CITY": {
+                "TP": 1001,
+                "FP": 20,
+                "FN": 19
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 977,
+                "FP": 3,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 1910,
+                "FP": 4,
+                "FN": 2
+            },
+            "DEPARTMENT": {
+                "TP": 1091,
+                "FP": 46,
+                "FN": 44
+            },
+            "LOCATION-OTHER": {
+                "TP": 7,
+                "FP": 0,
+                "FN": 0
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3897,
+                "FP": 26,
+                "FN": 21
+            },
+            "STATE": {
+                "TP": 919,
+                "FP": 33,
+                "FN": 33
+            },
+            "AGE": {
+                "TP": 144,
+                "FP": 2,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 9,
+                "FP": 0,
+                "FN": 2
+            },
+            "HOSPITAL": {
+                "TP": 1908,
+                "FP": 6,
+                "FN": 5
+            },
+            "DATE": {
+                "TP": 5065,
+                "FP": 39,
+                "FN": 42
+            },
+            "ZIP": {
+                "TP": 990,
+                "FP": 5,
+                "FN": 4
+            },
+            "URL": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "DURATION": {
+                "TP": 27,
+                "FP": 3,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 73,
+                "FP": 40,
+                "FN": 40
+            },
+            "TIME": {
+                "TP": 1229,
+                "FP": 27,
+                "FN": 27
+            },
+            "PHONE": {
+                "TP": 8,
+                "FP": 0,
+                "FN": 1
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 474,
+                "FP": 4,
+                "FN": 5
+            },
+            "DOCTOR": {
+                "TP": 1713,
+                "FP": 39,
+                "FN": 30
+            },
+            "CITY": {
+                "TP": 247,
+                "FP": 9,
+                "FN": 9
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 238,
+                "FP": 4,
+                "FN": 2
+            },
+            "MEDICALRECORD": {
+                "TP": 475,
+                "FP": 2,
+                "FN": 0
+            },
+            "DEPARTMENT": {
+                "TP": 252,
+                "FP": 26,
+                "FN": 16
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 923,
+                "FP": 28,
+                "FN": 13
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 7,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 38,
+                "FP": 5,
+                "FN": 0
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 470,
+                "FP": 13,
+                "FN": 6
+            },
+            "DATE": {
+                "TP": 1268,
+                "FP": 18,
+                "FN": 17
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 3,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 3,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 23,
+                "FP": 16,
+                "FN": 23
+            },
+            "TIME": {
+                "TP": 272,
+                "FP": 10,
+                "FN": 7
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 1,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 13,
+        "train_loss": 2.7194628363865316,
+        "val_loss": 10.487913855190936,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1881,
+                "FP": 10,
+                "FN": 4
+            },
+            "DOCTOR": {
+                "TP": 6904,
+                "FP": 106,
+                "FN": 81
+            },
+            "CITY": {
+                "TP": 998,
+                "FP": 27,
+                "FN": 22
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 2,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 977,
+                "FP": 4,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 1907,
+                "FP": 6,
+                "FN": 5
+            },
+            "DEPARTMENT": {
+                "TP": 1089,
+                "FP": 50,
+                "FN": 46
+            },
+            "LOCATION-OTHER": {
+                "TP": 5,
+                "FP": 4,
+                "FN": 2
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3893,
+                "FP": 27,
+                "FN": 25
+            },
+            "STATE": {
+                "TP": 919,
+                "FP": 32,
+                "FN": 33
+            },
+            "AGE": {
+                "TP": 144,
+                "FP": 1,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 9,
+                "FP": 0,
+                "FN": 2
+            },
+            "HOSPITAL": {
+                "TP": 1899,
+                "FP": 20,
+                "FN": 14
+            },
+            "DATE": {
+                "TP": 5062,
+                "FP": 40,
+                "FN": 45
+            },
+            "ZIP": {
+                "TP": 993,
+                "FP": 2,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "DURATION": {
+                "TP": 28,
+                "FP": 1,
+                "FN": 0
+            },
+            "ORGANIZATION": {
+                "TP": 73,
+                "FP": 38,
+                "FN": 40
+            },
+            "TIME": {
+                "TP": 1229,
+                "FP": 29,
+                "FN": 27
+            },
+            "PHONE": {
+                "TP": 9,
+                "FP": 2,
+                "FN": 0
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 474,
+                "FP": 7,
+                "FN": 5
+            },
+            "DOCTOR": {
+                "TP": 1714,
+                "FP": 38,
+                "FN": 29
+            },
+            "CITY": {
+                "TP": 247,
+                "FP": 15,
+                "FN": 9
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 237,
+                "FP": 5,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 4,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 253,
+                "FP": 21,
+                "FN": 15
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 1,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 925,
+                "FP": 16,
+                "FN": 11
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 5,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 38,
+                "FP": 4,
+                "FN": 0
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 468,
+                "FP": 16,
+                "FN": 8
+            },
+            "DATE": {
+                "TP": 1271,
+                "FP": 19,
+                "FN": 14
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 4,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 4,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 26,
+                "FP": 19,
+                "FN": 20
+            },
+            "TIME": {
+                "TP": 272,
+                "FP": 9,
+                "FN": 7
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 1,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 14,
+        "train_loss": 2.483513713937945,
+        "val_loss": 10.508148478365493,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1879,
+                "FP": 6,
+                "FN": 6
+            },
+            "DOCTOR": {
+                "TP": 6911,
+                "FP": 81,
+                "FN": 74
+            },
+            "CITY": {
+                "TP": 1000,
+                "FP": 24,
+                "FN": 20
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 977,
+                "FP": 2,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 1904,
+                "FP": 8,
+                "FN": 8
+            },
+            "DEPARTMENT": {
+                "TP": 1094,
+                "FP": 50,
+                "FN": 41
+            },
+            "LOCATION-OTHER": {
+                "TP": 7,
+                "FP": 0,
+                "FN": 0
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3891,
+                "FP": 28,
+                "FN": 27
+            },
+            "STATE": {
+                "TP": 917,
+                "FP": 33,
+                "FN": 35
+            },
+            "AGE": {
+                "TP": 146,
+                "FP": 0,
+                "FN": 0
+            },
+            "SET": {
+                "TP": 10,
+                "FP": 0,
+                "FN": 1
+            },
+            "HOSPITAL": {
+                "TP": 1904,
+                "FP": 13,
+                "FN": 9
+            },
+            "DATE": {
+                "TP": 5063,
+                "FP": 45,
+                "FN": 44
+            },
+            "ZIP": {
+                "TP": 994,
+                "FP": 2,
+                "FN": 0
+            },
+            "URL": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "DURATION": {
+                "TP": 28,
+                "FP": 0,
+                "FN": 0
+            },
+            "ORGANIZATION": {
+                "TP": 72,
+                "FP": 40,
+                "FN": 41
+            },
+            "TIME": {
+                "TP": 1226,
+                "FP": 36,
+                "FN": 30
+            },
+            "PHONE": {
+                "TP": 9,
+                "FP": 0,
+                "FN": 0
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 473,
+                "FP": 7,
+                "FN": 6
+            },
+            "DOCTOR": {
+                "TP": 1705,
+                "FP": 34,
+                "FN": 38
+            },
+            "CITY": {
+                "TP": 243,
+                "FP": 11,
+                "FN": 13
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 239,
+                "FP": 1,
+                "FN": 1
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 3,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 253,
+                "FP": 13,
+                "FN": 15
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 928,
+                "FP": 9,
+                "FN": 8
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 6,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 38,
+                "FP": 4,
+                "FN": 0
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 471,
+                "FP": 12,
+                "FN": 5
+            },
+            "DATE": {
+                "TP": 1273,
+                "FP": 16,
+                "FN": 12
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 2,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 2,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 3,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 25,
+                "FP": 19,
+                "FN": 21
+            },
+            "TIME": {
+                "TP": 272,
+                "FP": 5,
+                "FN": 7
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 15,
+        "train_loss": 2.665768583967271,
+        "val_loss": 12.275857881567944,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1879,
+                "FP": 10,
+                "FN": 6
+            },
+            "DOCTOR": {
+                "TP": 6894,
+                "FP": 87,
+                "FN": 91
+            },
+            "CITY": {
+                "TP": 1000,
+                "FP": 25,
+                "FN": 20
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 1,
+                "FN": 1
+            },
+            "STREET": {
+                "TP": 978,
+                "FP": 5,
+                "FN": 2
+            },
+            "MEDICALRECORD": {
+                "TP": 1910,
+                "FP": 7,
+                "FN": 2
+            },
+            "DEPARTMENT": {
+                "TP": 1090,
+                "FP": 57,
+                "FN": 45
+            },
+            "LOCATION-OTHER": {
+                "TP": 4,
+                "FP": 5,
+                "FN": 3
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3889,
+                "FP": 30,
+                "FN": 29
+            },
+            "STATE": {
+                "TP": 919,
+                "FP": 31,
+                "FN": 33
+            },
+            "AGE": {
+                "TP": 145,
+                "FP": 0,
+                "FN": 1
+            },
+            "SET": {
+                "TP": 10,
+                "FP": 0,
+                "FN": 1
+            },
+            "HOSPITAL": {
+                "TP": 1906,
+                "FP": 13,
+                "FN": 7
+            },
+            "DATE": {
+                "TP": 5065,
+                "FP": 38,
+                "FN": 42
+            },
+            "ZIP": {
+                "TP": 991,
+                "FP": 6,
+                "FN": 3
+            },
+            "URL": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 2
+            },
+            "DURATION": {
+                "TP": 27,
+                "FP": 4,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 73,
+                "FP": 41,
+                "FN": 40
+            },
+            "TIME": {
+                "TP": 1230,
+                "FP": 24,
+                "FN": 26
+            },
+            "PHONE": {
+                "TP": 8,
+                "FP": 1,
+                "FN": 1
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 472,
+                "FP": 3,
+                "FN": 7
+            },
+            "DOCTOR": {
+                "TP": 1717,
+                "FP": 43,
+                "FN": 26
+            },
+            "CITY": {
+                "TP": 245,
+                "FP": 9,
+                "FN": 11
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 238,
+                "FP": 1,
+                "FN": 2
+            },
+            "MEDICALRECORD": {
+                "TP": 474,
+                "FP": 7,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 249,
+                "FP": 18,
+                "FN": 19
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 922,
+                "FP": 20,
+                "FN": 14
+            },
+            "STATE": {
+                "TP": 226,
+                "FP": 8,
+                "FN": 7
+            },
+            "AGE": {
+                "TP": 38,
+                "FP": 4,
+                "FN": 0
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 472,
+                "FP": 10,
+                "FN": 4
+            },
+            "DATE": {
+                "TP": 1268,
+                "FP": 28,
+                "FN": 17
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 0,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 2,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 3,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 25,
+                "FP": 16,
+                "FN": 21
+            },
+            "TIME": {
+                "TP": 273,
+                "FP": 12,
+                "FN": 6
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 16,
+        "train_loss": 2.795022179595137,
+        "val_loss": 10.782914150720355,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1874,
+                "FP": 10,
+                "FN": 11
+            },
+            "DOCTOR": {
+                "TP": 6905,
+                "FP": 88,
+                "FN": 80
+            },
+            "CITY": {
+                "TP": 999,
+                "FP": 24,
+                "FN": 21
+            },
+            "ROOM": {
+                "TP": 1,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 976,
+                "FP": 6,
+                "FN": 4
+            },
+            "MEDICALRECORD": {
+                "TP": 1902,
+                "FP": 17,
+                "FN": 10
+            },
+            "DEPARTMENT": {
+                "TP": 1088,
+                "FP": 53,
+                "FN": 47
+            },
+            "LOCATION-OTHER": {
+                "TP": 7,
+                "FP": 0,
+                "FN": 0
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 3
+            },
+            "IDNUM": {
+                "TP": 3890,
+                "FP": 29,
+                "FN": 28
+            },
+            "STATE": {
+                "TP": 919,
+                "FP": 32,
+                "FN": 33
+            },
+            "AGE": {
+                "TP": 144,
+                "FP": 0,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 10,
+                "FP": 0,
+                "FN": 1
+            },
+            "HOSPITAL": {
+                "TP": 1901,
+                "FP": 15,
+                "FN": 12
+            },
+            "DATE": {
+                "TP": 5056,
+                "FP": 63,
+                "FN": 51
+            },
+            "ZIP": {
+                "TP": 991,
+                "FP": 3,
+                "FN": 3
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 28,
+                "FP": 0,
+                "FN": 0
+            },
+            "ORGANIZATION": {
+                "TP": 72,
+                "FP": 44,
+                "FN": 41
+            },
+            "TIME": {
+                "TP": 1231,
+                "FP": 22,
+                "FN": 25
+            },
+            "PHONE": {
+                "TP": 9,
+                "FP": 0,
+                "FN": 0
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 471,
+                "FP": 4,
+                "FN": 8
+            },
+            "DOCTOR": {
+                "TP": 1715,
+                "FP": 42,
+                "FN": 28
+            },
+            "CITY": {
+                "TP": 247,
+                "FP": 11,
+                "FN": 9
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 236,
+                "FP": 4,
+                "FN": 4
+            },
+            "MEDICALRECORD": {
+                "TP": 472,
+                "FP": 8,
+                "FN": 3
+            },
+            "DEPARTMENT": {
+                "TP": 250,
+                "FP": 26,
+                "FN": 18
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 926,
+                "FP": 10,
+                "FN": 10
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 6,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 37,
+                "FP": 5,
+                "FN": 1
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 470,
+                "FP": 9,
+                "FN": 6
+            },
+            "DATE": {
+                "TP": 1271,
+                "FP": 19,
+                "FN": 14
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 3,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 22,
+                "FP": 24,
+                "FN": 24
+            },
+            "TIME": {
+                "TP": 272,
+                "FP": 8,
+                "FN": 7
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 17,
+        "train_loss": 2.502041112005183,
+        "val_loss": 12.467407380027332,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1877,
+                "FP": 8,
+                "FN": 8
+            },
+            "DOCTOR": {
+                "TP": 6899,
+                "FP": 91,
+                "FN": 86
+            },
+            "CITY": {
+                "TP": 1002,
+                "FP": 20,
+                "FN": 18
+            },
+            "ROOM": {
+                "TP": 1,
+                "FP": 1,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 977,
+                "FP": 7,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 1895,
+                "FP": 29,
+                "FN": 17
+            },
+            "DEPARTMENT": {
+                "TP": 1095,
+                "FP": 47,
+                "FN": 40
+            },
+            "LOCATION-OTHER": {
+                "TP": 7,
+                "FP": 1,
+                "FN": 0
+            },
+            "COUNTRY": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "IDNUM": {
+                "TP": 3893,
+                "FP": 30,
+                "FN": 25
+            },
+            "STATE": {
+                "TP": 919,
+                "FP": 30,
+                "FN": 33
+            },
+            "AGE": {
+                "TP": 144,
+                "FP": 1,
+                "FN": 2
+            },
+            "SET": {
+                "TP": 10,
+                "FP": 0,
+                "FN": 1
+            },
+            "HOSPITAL": {
+                "TP": 1905,
+                "FP": 12,
+                "FN": 8
+            },
+            "DATE": {
+                "TP": 5064,
+                "FP": 51,
+                "FN": 43
+            },
+            "ZIP": {
+                "TP": 991,
+                "FP": 3,
+                "FN": 3
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 28,
+                "FP": 0,
+                "FN": 0
+            },
+            "ORGANIZATION": {
+                "TP": 74,
+                "FP": 38,
+                "FN": 39
+            },
+            "TIME": {
+                "TP": 1233,
+                "FP": 20,
+                "FN": 23
+            },
+            "PHONE": {
+                "TP": 9,
+                "FP": 0,
+                "FN": 0
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 471,
+                "FP": 8,
+                "FN": 8
+            },
+            "DOCTOR": {
+                "TP": 1716,
+                "FP": 35,
+                "FN": 27
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 9,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 237,
+                "FP": 4,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 475,
+                "FP": 2,
+                "FN": 0
+            },
+            "DEPARTMENT": {
+                "TP": 251,
+                "FP": 19,
+                "FN": 17
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 925,
+                "FP": 40,
+                "FN": 11
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 5,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 38,
+                "FP": 4,
+                "FN": 0
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 474,
+                "FP": 11,
+                "FN": 2
+            },
+            "DATE": {
+                "TP": 1271,
+                "FP": 23,
+                "FN": 14
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 2,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 4,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 27,
+                "FP": 21,
+                "FN": 19
+            },
+            "TIME": {
+                "TP": 274,
+                "FP": 7,
+                "FN": 5
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 1,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 18,
+        "train_loss": 1.3550372222180211,
+        "val_loss": 10.55216081115021,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1880,
+                "FP": 8,
+                "FN": 5
+            },
+            "DOCTOR": {
+                "TP": 6906,
+                "FP": 78,
+                "FN": 79
+            },
+            "CITY": {
+                "TP": 1001,
+                "FP": 20,
+                "FN": 19
+            },
+            "ROOM": {
+                "TP": 1,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 978,
+                "FP": 6,
+                "FN": 2
+            },
+            "MEDICALRECORD": {
+                "TP": 1911,
+                "FP": 2,
+                "FN": 1
+            },
+            "DEPARTMENT": {
+                "TP": 1099,
+                "FP": 37,
+                "FN": 36
+            },
+            "LOCATION-OTHER": {
+                "TP": 7,
+                "FP": 0,
+                "FN": 0
+            },
+            "COUNTRY": {
+                "TP": 2,
+                "FP": 1,
+                "FN": 1
+            },
+            "IDNUM": {
+                "TP": 3897,
+                "FP": 24,
+                "FN": 21
+            },
+            "STATE": {
+                "TP": 922,
+                "FP": 30,
+                "FN": 30
+            },
+            "AGE": {
+                "TP": 146,
+                "FP": 1,
+                "FN": 0
+            },
+            "SET": {
+                "TP": 10,
+                "FP": 0,
+                "FN": 1
+            },
+            "HOSPITAL": {
+                "TP": 1905,
+                "FP": 9,
+                "FN": 8
+            },
+            "DATE": {
+                "TP": 5075,
+                "FP": 29,
+                "FN": 32
+            },
+            "ZIP": {
+                "TP": 994,
+                "FP": 1,
+                "FN": 0
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 28,
+                "FP": 0,
+                "FN": 0
+            },
+            "ORGANIZATION": {
+                "TP": 74,
+                "FP": 38,
+                "FN": 39
+            },
+            "TIME": {
+                "TP": 1238,
+                "FP": 16,
+                "FN": 18
+            },
+            "PHONE": {
+                "TP": 9,
+                "FP": 0,
+                "FN": 0
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 474,
+                "FP": 4,
+                "FN": 5
+            },
+            "DOCTOR": {
+                "TP": 1707,
+                "FP": 28,
+                "FN": 36
+            },
+            "CITY": {
+                "TP": 246,
+                "FP": 9,
+                "FN": 10
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 237,
+                "FP": 2,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 475,
+                "FP": 1,
+                "FN": 0
+            },
+            "DEPARTMENT": {
+                "TP": 251,
+                "FP": 18,
+                "FN": 17
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 927,
+                "FP": 14,
+                "FN": 9
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 6,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 37,
+                "FP": 6,
+                "FN": 1
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 472,
+                "FP": 11,
+                "FN": 4
+            },
+            "DATE": {
+                "TP": 1270,
+                "FP": 17,
+                "FN": 15
+            },
+            "ZIP": {
+                "TP": 243,
+                "FP": 1,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 4,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 27,
+                "FP": 22,
+                "FN": 19
+            },
+            "TIME": {
+                "TP": 273,
+                "FP": 6,
+                "FN": 6
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    },
+    {
+        "epoch": 19,
+        "train_loss": 1.5048158696267457,
+        "val_loss": 11.486778522359915,
+        "train_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 1881,
+                "FP": 7,
+                "FN": 4
+            },
+            "DOCTOR": {
+                "TP": 6906,
+                "FP": 86,
+                "FN": 79
+            },
+            "CITY": {
+                "TP": 1002,
+                "FP": 18,
+                "FN": 18
+            },
+            "ROOM": {
+                "TP": 1,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 979,
+                "FP": 2,
+                "FN": 1
+            },
+            "MEDICALRECORD": {
+                "TP": 1907,
+                "FP": 5,
+                "FN": 5
+            },
+            "DEPARTMENT": {
+                "TP": 1098,
+                "FP": 37,
+                "FN": 37
+            },
+            "LOCATION-OTHER": {
+                "TP": 7,
+                "FP": 0,
+                "FN": 0
+            },
+            "COUNTRY": {
+                "TP": 2,
+                "FP": 1,
+                "FN": 1
+            },
+            "IDNUM": {
+                "TP": 3894,
+                "FP": 20,
+                "FN": 24
+            },
+            "STATE": {
+                "TP": 922,
+                "FP": 30,
+                "FN": 30
+            },
+            "AGE": {
+                "TP": 146,
+                "FP": 0,
+                "FN": 0
+            },
+            "SET": {
+                "TP": 10,
+                "FP": 0,
+                "FN": 1
+            },
+            "HOSPITAL": {
+                "TP": 1909,
+                "FP": 4,
+                "FN": 4
+            },
+            "DATE": {
+                "TP": 5075,
+                "FP": 30,
+                "FN": 32
+            },
+            "ZIP": {
+                "TP": 993,
+                "FP": 2,
+                "FN": 1
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 3
+            },
+            "DURATION": {
+                "TP": 28,
+                "FP": 1,
+                "FN": 0
+            },
+            "ORGANIZATION": {
+                "TP": 75,
+                "FP": 38,
+                "FN": 38
+            },
+            "TIME": {
+                "TP": 1237,
+                "FP": 15,
+                "FN": 19
+            },
+            "PHONE": {
+                "TP": 9,
+                "FP": 0,
+                "FN": 0
+            }
+        },
+        "val_confusion_matrix": {
+            "OTHER": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "PATIENT": {
+                "TP": 473,
+                "FP": 7,
+                "FN": 6
+            },
+            "DOCTOR": {
+                "TP": 1705,
+                "FP": 32,
+                "FN": 38
+            },
+            "CITY": {
+                "TP": 245,
+                "FP": 7,
+                "FN": 11
+            },
+            "ROOM": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 0
+            },
+            "STREET": {
+                "TP": 237,
+                "FP": 3,
+                "FN": 3
+            },
+            "MEDICALRECORD": {
+                "TP": 475,
+                "FP": 2,
+                "FN": 0
+            },
+            "DEPARTMENT": {
+                "TP": 251,
+                "FP": 22,
+                "FN": 17
+            },
+            "LOCATION-OTHER": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 1
+            },
+            "COUNTRY": {
+                "TP": 0,
+                "FP": 0,
+                "FN": 2
+            },
+            "IDNUM": {
+                "TP": 927,
+                "FP": 8,
+                "FN": 9
+            },
+            "STATE": {
+                "TP": 227,
+                "FP": 5,
+                "FN": 6
+            },
+            "AGE": {
+                "TP": 37,
+                "FP": 6,
+                "FN": 1
+            },
+            "SET": {
+                "TP": 3,
+                "FP": 1,
+                "FN": 0
+            },
+            "HOSPITAL": {
+                "TP": 473,
+                "FP": 10,
+                "FN": 3
+            },
+            "DATE": {
+                "TP": 1271,
+                "FP": 22,
+                "FN": 14
+            },
+            "ZIP": {
+                "TP": 242,
+                "FP": 2,
+                "FN": 2
+            },
+            "URL": {
+                "TP": 0,
+                "FP": 3,
+                "FN": 0
+            },
+            "DURATION": {
+                "TP": 5,
+                "FP": 4,
+                "FN": 1
+            },
+            "ORGANIZATION": {
+                "TP": 25,
+                "FP": 20,
+                "FN": 21
+            },
+            "TIME": {
+                "TP": 272,
+                "FP": 11,
+                "FN": 7
+            },
+            "PHONE": {
+                "TP": 2,
+                "FP": 0,
+                "FN": 0
+            }
+        }
+    }
+]
