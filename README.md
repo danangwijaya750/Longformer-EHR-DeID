@@ -12,7 +12,7 @@ The goal of this experiment is to demonstrate how deep learning can be used to e
 - **Libraries:**
   - PyTorch
   - Huggingface Transformers
-  - torchcrf (for CRF)
+  - pytorch-crf (for CRF)
   - NumPy, Pandas
 
 ## Dataset
