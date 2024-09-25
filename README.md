@@ -22,24 +22,24 @@ The goal of this experiment is to demonstrate how deep learning can be used to e
 
 ## Training
 ### Training Script
-- Longformer Training [code/longformer_training.ipynb]
-- Longformer + CRF Training [code/longformer_CRF_training.ipynb]
-- Clinical Longformer Training [code/Clinical_longformer_training.ipynb]
-- Clinical Longformer + CRF [code/Clinical_longformer_CRF_training.ipynb]
+- Longformer Training [code/longformer_training.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/longformer_training.ipynb)
+- Longformer + CRF Training [code/longformer_CRF_training.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/longformer_CRF_training.ipynb)
+- Clinical Longformer Training [code/Clinical_longformer_training.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/Clinical_longformer_training.ipynb)
+- Clinical Longformer + CRF [code/Clinical_longformer_CRF_training.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/Clinical_longformer_CRF_training.ipynb)
 ### Training Statistic Output Files
 Each training script have an output json file
-- Longformer Training [code/longformer_training.ipynb]()
-- Longformer + CRF Training [code/longformer_CRF_training.ipynb]()
-- Clinical Longformer Training [code/Clinical_longformer_training.ipynb]()
-- Clinical Longformer + CRF [code/Clinical_longformer_CRF_training.ipynb]()
+- Longformer Training [code/longformer_training.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/training_stat_longformer.json)
+- Longformer + CRF Training [code/longformer_CRF_training.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/training_stat_longformerCRF.json)
+- Clinical Longformer Training [code/Clinical_longformer_training.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/Clinical_training_stat_longformer.json)
+- Clinical Longformer + CRF [code/Clinical_longformer_CRF_training.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/Clinical_training_stat_longformerCRF.json)
 ## Inference
 use this script to perform the inference
-- Inference code [code/inference_code.ipynb]()
+- Inference code [code/inference_code.ipynb](https://github.com/danangwijaya750/Longformer-EHR-DeID/blob/master/code/inference_code.ipynb)
 ## Results
 ### Overall model performance
 ![Overall Model Performance](images/overall_performance.png)
 ![Training Validation Results](images/training_results.png)
-###
+
 ## Acknowledgement
 
 ## Citation
